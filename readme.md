@@ -127,37 +127,6 @@ The project includes the following visualizations:
 
 ---
 
-## Project Structure
-
-```text
-spacex-launch-analysis/
-│
-├── data/
-│   ├── launch_data.csv
-│   ├── spacex.sqlite
-│
-├── notebooks/
-│   ├── spacex_analysis.ipynb
-│
-├── dashboard/
-│   ├── spacex_dash_app.py
-│
-├── sql/
-│   ├── exploratory_queries.sql
-│
-├── images/
-│   ├── pie_chart.png
-│   ├── scatter_plot.png
-│   ├── confusion_matrix.png
-│   ├── dashboard.png
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
----
-
 ## Assets & Deliverables
 
 The project includes:
@@ -207,13 +176,6 @@ jupyter notebook spacex_analysis.ipynb
 ```bash
 python spacex_dash_app.py
 ```
-
-Open your browser and visit:
-
-```text
-http://127.0.0.1:8050/
-```
-
 ---
 
 # Technologies Used
